@@ -1,0 +1,66 @@
+ 
+
+
+.loginContainer {
+    border: 1px solid grey;
+    text-align: center;
+    width: 650px;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+input {
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+    font-size: 14pt;
+    text-align: left;
+    background-color: rgb(180, 180, 180);
+    box-sizing: border-box;
+}
+
+#userLogo {
+    width: 5dvh;   
+    border-radius: 50%; 
+    box-shadow: 10px 10px 10px rgba(15, 15, 15, 0.33);
+}
+
+.loginFieldset {
+    background-color: rgb(236, 234, 234);
+
+}
+
+.messageContainer {
+    border: solid blue;
+    background-color: red;
+    width: 800px;
+    color: white;
+    text-align: center;
+
+}
+
+
+#loginButton {
+    /* width: 90%; */
+    margin: 20px;
+    font-size: 14pt;
+    text-align: center;
+    background-color: rgb(102, 191, 247);
+    border: none;
+    box-sizing: border-box;
+}
+
+
+
+a {
+    color: rgb(224, 135, 1);
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+.loginFieldset {
+    box-shadow: 10px 10px 10px rgba(15, 15, 15, 0.33);
+
+}
+

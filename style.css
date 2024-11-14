@@ -1,11 +1,10 @@
 
-.menuContainer {
+.navBar {
     border: 1px solid black;
     display: flex;
     margin: 20px;
     
 }
-
 
 ul {
     display: flex;
@@ -28,109 +27,37 @@ li a:hover:not(.active) {
 .active {
     background-color: #04AA6D;
 }
+
+.mainAd {
+    border: solid red;
+    height: 70vh;
+    background-image: url('');
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+}
   
 
-
-.loginContainer {
-    border: 1px solid grey;
-    text-align: center;
-    width: 650px;
-    margin: 20px;
-    padding: 20px;
+.productsContainer {
+    border: solid green;
+    height: 300px;
+    display: flex;
 }
 
-input {
-    width: 90%;
+.itemContainer {
+    border: solid plum;
+    display: block;
     margin: 20px;
     padding: 10px;
-    font-size: 14pt;
-    text-align: left;
-    background-color: rgb(180, 180, 180);
 }
 
-#userLogo {
-    width: 5dvh;   
-    border-radius: 50%; 
-    box-shadow: 10px 10px 10px rgba(15, 15, 15, 0.33);
-}
-
-.loginFieldset {
-    background-color: rgb(236, 234, 234);
+.footerContainer {
+    border: solid purple;
 
 }
 
-.messageContainer {
+.mediaLinks {
     border: solid blue;
-    background-color: red;
-    width: 800px;
-    color: white;
-    text-align: center;
-
-}
-
-
-#loginButton {
-    /* width: 90%; */
-    margin: 20px;
-    font-size: 14pt;
-    text-align: center;
-    background-color: rgb(102, 191, 247);
-    border: none;
-}
-
-
-
-a {
-    color: rgb(224, 135, 1);
-    font-size: 14pt;
-}
-
-.loginFieldset {
-    box-shadow: 10px 10px 10px rgba(15, 15, 15, 0.33);
-
-}
-
-.inputText {
-    background-color: rgb(177, 9, 9);
-    border: none;
-    color: white;
-   
-    
-
-}
-.inputText::placeholder, .textarea::placeholder {
-    color: white;
-}
-
-.textarea {
-    width: 90%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: none;
-    background-color: rgb(177, 9, 9);
-    color: white;  
-    resize: none;
-}
-
-#closeButton {
-    background-color: unset;
-    color: white;
-    height: 30px;
-    font-size: 20pt;
-    border: none;
-    padding: 15px;
-
-}
-
-#messageButton {
-    background-color: white;
-    color: red;
-    width: 90%;
-    text-align: center;
-    font-size: 20pt;
-    border: none;
-    padding: 15px;
-    height: 80px;
-
+    display: flex;
+    justify-content: space-between;
 }
